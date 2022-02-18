@@ -17,11 +17,6 @@ html {
     position: relative;
 }
 
-body {
-    width: 960px;
-    height: 800px;
-}
-
 *,
 *:before,
 *:after{
@@ -41,14 +36,14 @@ nav {
     left: 10px;
 }
 
-a {
+#left-column a {
     position: relative;
     text-decoration: none;
     font-family: Lato;
     color: white;
     font-size: 30px;
     letter-spacing: 0.5px;
-    padding: 0 10px;
+    padding: 10px;
 }
 
 a:after{
