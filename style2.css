@@ -37,14 +37,19 @@ nav {
     left: 10px;
 }
 
-a {
+img {
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#left-column a {
     position: relative;
     text-decoration: none;
     font-family: Lato;
     color: white;
     font-size: 30px;
     letter-spacing: 0.5px;
-    padding: 0 10px;
+    padding: 10px;
 }
 
 a:after{
@@ -82,14 +87,14 @@ ul {
     color: white;
     font-size: 18px;
     text-align: center;
-    width: 960px;
-    height: 800px;
+    width: 50%;
+    height: 50%;
+    max-width: 55%;
+    max-height: 55%;
     margin-left: auto;
     margin-right: auto;
     letter-spacing: .15em;
-
-
-    
+    padding-top: 30px;
 }
 
 #title {
@@ -103,9 +108,10 @@ ul {
     font-weight: 300;
     font-size: 50px;
     letter-spacing: 10px;
+    padding-top: 30px;
 }
 
-#title span {
+#wrapper span {
     background: -webkit-linear-gradient(white);
     font-size: 72px;
     font-style: bold;
