@@ -17,6 +17,7 @@ html {
     position: relative;
 }
 
+
 *,
 *:before,
 *:after{
@@ -81,8 +82,8 @@ ul {
     color: white;
     font-size: 18px;
     text-align: center;
-    padding-left: 20%;
-    padding-right: 20%;
+    width: 960px;
+    height: 800px;
     margin-left: auto;
     margin-right: auto;
     letter-spacing: .15em;

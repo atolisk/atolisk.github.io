@@ -17,6 +17,11 @@ html {
     position: relative;
 }
 
+body {
+    width: 960px;
+    height: 800px;
+}
+
 *,
 *:before,
 *:after{
@@ -108,6 +113,12 @@ ul {
     background: -webkit-linear-gradient(white);
     font-size: 72px;
     font-style: bold;
+}
+
+
+#work span {
+    color: white;
+    font-size: 18px;
 }
 
 
