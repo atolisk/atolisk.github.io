@@ -2,7 +2,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 30px;
     width: 250px;
     
 }
@@ -37,8 +36,8 @@ nav {
 }
 
 img {
-    padding-bottom: 5px;
     text-align: center;
+    padding-bottom: 2%;
 }
 
 #left-column a {
@@ -81,8 +80,12 @@ ul {
 
 }
 
+#title h1 {
+    margin: 25px;
+    font-family: Lato;
+}
+
 #title p {
-    padding-top: 50px;
     color: white;
     font-size: 18px;
     text-align: center;
@@ -93,12 +96,11 @@ ul {
     margin-left: auto;
     margin-right: auto;
     letter-spacing: .15em;
-    padding-top: 30px;
+    padding-top: 2%;
 }
 
 #title {
     position: absolute;
-    top: 28%;
     left: 0;
     right: 0;
     color: #fff;
@@ -107,7 +109,6 @@ ul {
     font-weight: 300;
     font-size: 50px;
     letter-spacing: 10px;
-    padding-top: 30px;
 }
 
 #wrapper span {
